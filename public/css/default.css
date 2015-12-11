@@ -8,6 +8,49 @@
  * molenda.mike@gmail.com
  */
 
+/**
+ * Bootstrap style tweaks borrowed from Twitter Bootstrap container app example:
+ * https://github.com/twbs/bootstrap/blob/51e4e77034e14074cb442138e84b98efd288ccfd/examples/container-app.html
+ */
+
+body
+{
+    background-color: #eee;
+}
+
+.container 
+{
+    width: 820px;
+}
+
+.container > footer p 
+{
+    text-align: center;
+}
+
+.content 
+{
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+    -webkit-border-radius: 0 0 6px 6px;
+       -moz-border-radius: 0 0 6px 6px;
+            border-radius: 0 0 6px 6px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+       -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+            box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+
+.page-header 
+{
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    padding: 20px 20px 10px;
+    margin: -20px -20px 20px;
+}
+
+/* stops the "click-to-post" form value from appearing at the bottom of results.php */
 #poster
 {
     visibility: hidden;

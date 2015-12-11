@@ -1,5 +1,5 @@
 <h3>Synonyms for <strong><?= $_POST["word"] ?></strong>:</h3>
-<table class="table table-striped table-hover">
+<table class="table table-striped">
   <?php foreach ($synonyms as $synonym): ?>
     <tr>
       <td>

@@ -25,8 +25,8 @@
 <body>
   <div class="container">
     
-    <div class="page-header">
-      <h1>Vocabulary</h1>
-    </div>
+    <div class="content">
 
-    <div id="content">
+      <div class="page-header">
+        <h1>Vocabulary</h1>
+      </div>

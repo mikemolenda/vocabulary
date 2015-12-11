@@ -4,7 +4,7 @@
         <input type="text" class="form-control" name="word" placeholder="Enter a word" autofocus/>
       </div>
       <div class="form-group">
-        <button type="submit" class="btn btn-primary">Find Synonyms</button>
+        <button type="submit" class="btn btn-primary center-block">Find Synonyms</button>
       </div>
     </fieldset>
   </form>
