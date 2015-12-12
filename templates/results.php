@@ -1,9 +1,9 @@
-<h3>Synonyms for <strong><?= $_POST["word"] ?></strong>:</h3>
+<h3>Synonyms for <strong><?= $_GET["word"] ?></strong>:</h3>
 <table class="table table-striped">
   <?php foreach ($synonyms as $synonym): ?>
     <tr>
       <td>
-        <a href="index.php" class="post"><?= $synonym["word"] ?></a>
+        <a href="index.php?word=<?= $synonym["word"] ?>"><?= $synonym["word"] ?></a>
       </td>
       <td>
         <?= $synonym["sense"] ?>

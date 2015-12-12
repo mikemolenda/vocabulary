@@ -26,6 +26,8 @@ body
 .container > footer p 
 {
     text-align: center;
+    font-size: 0.8em;
+    color: #666;
 }
 
 .content 

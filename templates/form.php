@@ -1,4 +1,4 @@
-  <form action="index.php" method="post">
+  <form action="index.php?" method="get">
     <fieldset>
       <div class="form-group">
         <input type="text" class="form-control" name="word" placeholder="Enter a word" autofocus/>

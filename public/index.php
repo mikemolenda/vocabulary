@@ -11,17 +11,17 @@
 
 require("../includes/config.php");
 
-// if HTTP method GET, render form
-if ($_SERVER["REQUEST_METHOD"] == "GET")
+// if no query, render form
+if (!isset($_GET["word"]))
 {
     render("form.php", ["title" => "Enter a Word"]);
 }
 
-// else if HTTP method POST, query database and render results
-else if ($_SERVER["REQUEST_METHOD"] == "POST")
+// else, query database and render results
+else
 {
     // query database
-    $rows = query("SELECT word, sense FROM WordSenses INNER JOIN Senses ON WordSenses.sense_id = Senses.sense_id WHERE WordSenses.sense_id IN (SELECT sense_id FROM WordSenses WHERE word = ?)", $_POST["word"]);
+    $rows = query("SELECT word, sense FROM WordSenses INNER JOIN Senses ON WordSenses.sense_id = Senses.sense_id WHERE WordSenses.sense_id IN (SELECT sense_id FROM WordSenses WHERE word = ?)", $_GET["word"]);
 
     // if results found, render results.php
     if (count($rows) > 0)
