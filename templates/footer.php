@@ -2,7 +2,7 @@
     </div><!--end content-->
 
 <footer>
-  <p>&copy; 2015 Mike Molenda</p>
+  &nbsp;
 </footer>
 
   </div><!--end container-->
