@@ -3,7 +3,7 @@
 <html>
 
 <head>
-  <meta name="author" content="Mike Molenda">
+  <meta name="author" content="">
   <meta name="description" content="Vocabulary web app">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
