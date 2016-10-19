@@ -4,9 +4,6 @@
  * Vocabulary web app
  *
  * Main controller for app.
- * 
- * Mike Molenda
- * molenda.mike@gmail.com
  */
 
 require("../includes/config.php");
