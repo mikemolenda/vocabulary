@@ -4,9 +4,6 @@
  * Vocabulary web app
  *
  * Global constants defined here.
- * 
- * Mike Molenda
- * molenda.mike@gmail.com
  */
 
 // database server
