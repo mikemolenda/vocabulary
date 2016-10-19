@@ -4,9 +4,6 @@
  * Vocabulary web app
  *
  * Shared page configuration.
- * 
- * Mike Molenda
- * molenda.mike@gmail.com
  */
 
 require("constants.php");
