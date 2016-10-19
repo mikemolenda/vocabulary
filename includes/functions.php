@@ -4,9 +4,6 @@
  * Vocabulary web app
  *
  * Various helper functions called throughout the app.
- *
- * Mike Molenda
- * molenda.mike@gmail.com
  */
 
 require_once("constants.php");
